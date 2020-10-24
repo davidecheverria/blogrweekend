@@ -10,23 +10,14 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_cache$", "\\.knit\\.md$", "\\.utf8\
     post = "/:year/:month/:day/:slug/"
 
 [[menu.main]]
-    name = "Autor"
+    name = "About"
     url = "/about/"
-    
-[[menu.main]]
-    name = "Entradas blog"
-    url = "/post/"
-    
 [[menu.main]]
     name = "GitHub"
-    url = "https://github.com/rstudio/davidecheverria"
+    url = "https://github.com/rstudio/blogdown"
 [[menu.main]]
     name = "Twitter"
-    url = "https://twitter.com/dhecheverria"
-    
-[[menu.main]]
-    name = "Linkendin"
-    url = "www.linkedin.com/in/david-echeverria-a94a91107"
+    url = "https://twitter.com/rstudio"
 
 [params]
     description = "A website built through Hugo and blogdown."
@@ -44,7 +35,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_cache$", "\\.knit\\.md$", "\\.utf8\
     favicon = "favicon.ico"
 
     [params.logo]
-    url = "david.png"
+    url = "logo.png"
     width = 50
     height = 50
     alt = "Logo"

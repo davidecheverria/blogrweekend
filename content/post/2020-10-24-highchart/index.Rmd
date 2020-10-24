@@ -1,0 +1,26 @@
+---
+title: Highchart
+author: David Echeverria
+date: '2020-10-24'
+slug: highchart
+categories:
+  - R
+tags:
+  - dataviz
+  - plot
+  - graficos
+---
+
+# Highcharter
+
+Este es un ejemplo del uso de librearía highchart
+
+```{r}
+library(highcharter)
+
+data(penguins, package="palmerpenguins")
+
+hchart(penguins,"scatter",hcaes(x=flipper_length_mm,y=bill_length_mm,group=species))
+
+```
+
