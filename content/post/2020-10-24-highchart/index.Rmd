@@ -1,5 +1,5 @@
 ---
-title: Highchart
+title: Highcharter
 author: David Echeverria
 date: '2020-10-24'
 slug: highchart
@@ -13,7 +13,7 @@ tags:
 
 # Highcharter
 
-Este es un ejemplo del uso de librearía highchart
+Este es un ejemplo del uso de librearía highcharter
 
 ```{r}
 library(highcharter)
