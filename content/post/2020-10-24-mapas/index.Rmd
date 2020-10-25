@@ -1,14 +1,21 @@
 ---
-title: ejemplo
+title: Mapas con highcharter
 author: David Echeverría
 date: '2020-10-24'
-slug: ejemplo
+slug: mapas
 categories:
   - R
-tags: []
+tags:
+  - mapas
+  - dataviz
+  - graficos
 ---
 
-```{r}
+# Mapas
+
+Este es un ejemplo del código para hacer un mapa con la libraría highcharter
+
+```{r,message=FALSE,warning=FALSE}
 library(highcharter)
 data(GNI2014, package = "treemap")
 
@@ -26,4 +33,3 @@ hcmap(
     type = "logarithmic"
     ) 
 ```
-
